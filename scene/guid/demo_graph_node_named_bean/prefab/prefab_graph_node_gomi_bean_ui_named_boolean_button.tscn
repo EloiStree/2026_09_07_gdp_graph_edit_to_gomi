@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://dcynmxesc0o32"]
+
+[ext_resource type="Script" uid="uid://byb3jdierboex" path="res://addons/2026_09_07_gdp_graph_edit_to_gomi/scene/guid/demo_graph_node_named_bean/script/graph_node_gomi_bean_ui_named_boolean_button.gd" id="1_p1g32"]
+
+[node name="GraphNodeGomiBeanUiNamedBooleanButton" type="GraphNode" unique_id=1967887356 node_paths=PackedStringArray("_named_of_boolean", "_button_to_value_of_boolean")]
+offset_left = 31.0
+offset_top = 121.0
+offset_right = 135.0
+offset_bottom = 273.0
+mouse_filter = 1
+position_offset = Vector2(31, 90)
+resizable = true
+title = "Bool Push"
+slot/0/left_enabled = false
+slot/0/left_type = 0
+slot/0/left_color = Color(1, 1, 1, 1)
+slot/0/left_icon = null
+slot/0/right_enabled = false
+slot/0/right_type = 0
+slot/0/right_color = Color(1, 1, 1, 1)
+slot/0/right_icon = null
+slot/0/draw_stylebox = true
+slot/1/left_enabled = false
+slot/1/left_type = 0
+slot/1/left_color = Color(1, 1, 1, 1)
+slot/1/left_icon = null
+slot/1/right_enabled = false
+slot/1/right_type = 0
+slot/1/right_color = Color(1, 1, 1, 1)
+slot/1/right_icon = null
+slot/1/draw_stylebox = true
+script = ExtResource("1_p1g32")
+_named_of_boolean = NodePath("LineEdit")
+_button_to_value_of_boolean = NodePath("Button")
+metadata/_custom_type_script = "uid://byb3jdierboex"
+
+[node name="LineEdit" type="LineEdit" parent="." unique_id=1960411185]
+layout_mode = 2
+size_flags_vertical = 3
+placeholder_text = "Named of boolean"
+
+[node name="Button" type="Button" parent="." unique_id=2141098216]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Press"

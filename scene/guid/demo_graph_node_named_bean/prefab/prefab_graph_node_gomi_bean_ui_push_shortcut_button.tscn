@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://bl86cqc46y4sg"]
+
+[ext_resource type="Script" uid="uid://d4ak5sebrmppx" path="res://addons/2026_09_07_gdp_graph_edit_to_gomi/scene/guid/demo_graph_node_named_bean/script/graph_node_gomi_bean_ui_push_shortcut_button.gd" id="1_17vvm"]
+
+[node name="GraphNodeGomiBeanUiPushShortcutButton" type="GraphNode" unique_id=2074290134 node_paths=PackedStringArray("_command_to_push", "_push_the_command")]
+offset_left = 6.0
+offset_top = 9.0
+offset_right = 413.0
+offset_bottom = 284.0
+mouse_filter = 1
+position_offset = Vector2(31, 431)
+resizable = true
+title = "Shortcut Push"
+slot/0/left_enabled = false
+slot/0/left_type = 0
+slot/0/left_color = Color(1, 1, 1, 1)
+slot/0/left_icon = null
+slot/0/right_enabled = false
+slot/0/right_type = 0
+slot/0/right_color = Color(1, 1, 1, 1)
+slot/0/right_icon = null
+slot/0/draw_stylebox = true
+slot/1/left_enabled = false
+slot/1/left_type = 0
+slot/1/left_color = Color(1, 1, 1, 1)
+slot/1/left_icon = null
+slot/1/right_enabled = false
+slot/1/right_type = 0
+slot/1/right_color = Color(1, 1, 1, 1)
+slot/1/right_icon = null
+slot/1/draw_stylebox = true
+script = ExtResource("1_17vvm")
+_command_to_push = NodePath("LineEdit")
+_push_the_command = NodePath("Button2")
+
+[node name="LineEdit" type="TextEdit" parent="." unique_id=678272363]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Button2" type="Button" parent="." unique_id=862177274]
+layout_mode = 2
+text = "Press"

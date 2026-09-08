@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://ddorp6345meud"]
+
+[ext_resource type="Script" uid="uid://nrwsjmnfupoi" path="res://addons/2026_09_07_gdp_graph_edit_to_gomi/scene/guid/demo_graph_node_named_bean/script/graph_node_gomi_bean_ui_push_command_button.gd" id="1_564ab"]
+
+[node name="GraphNodeGomiBeanUiPushCommandButton" type="GraphNode" unique_id=1468100209 node_paths=PackedStringArray("_command_to_push", "_push_the_command")]
+offset_left = 31.0
+offset_top = 462.0
+offset_right = 223.0
+offset_bottom = 664.0
+mouse_filter = 1
+position_offset = Vector2(31, 431)
+resizable = true
+title = "Command Push"
+slot/0/left_enabled = false
+slot/0/left_type = 0
+slot/0/left_color = Color(1, 1, 1, 1)
+slot/0/left_icon = null
+slot/0/right_enabled = false
+slot/0/right_type = 0
+slot/0/right_color = Color(1, 1, 1, 1)
+slot/0/right_icon = null
+slot/0/draw_stylebox = true
+slot/1/left_enabled = false
+slot/1/left_type = 0
+slot/1/left_color = Color(1, 1, 1, 1)
+slot/1/left_icon = null
+slot/1/right_enabled = false
+slot/1/right_type = 0
+slot/1/right_color = Color(1, 1, 1, 1)
+slot/1/right_icon = null
+slot/1/draw_stylebox = true
+script = ExtResource("1_564ab")
+_command_to_push = NodePath("LineEdit Command To Push")
+_push_the_command = NodePath("Button Push Command")
+
+[node name="LineEdit Command To Push" type="TextEdit" parent="." unique_id=572519002]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Button Push Command" type="Button" parent="." unique_id=1046744631]
+layout_mode = 2
+text = "Press"
