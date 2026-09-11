@@ -5,8 +5,6 @@ extends GraphNode
 @export var _button_to_value_of_boolean:Button
 
 func _ready() -> void:
-	self.add_child(_named_of_boolean)
-	self.add_child(_button_to_value_of_boolean)
 	_button_to_value_of_boolean.button_down.connect(_on_button_down)
 	_button_to_value_of_boolean.button_up.connect(_on_button_up)
 	

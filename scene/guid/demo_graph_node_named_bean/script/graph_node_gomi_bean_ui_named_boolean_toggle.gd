@@ -5,8 +5,6 @@ extends GraphNode
 @export var _toggle_to_value_of_boolean:CheckButton
 	
 func _ready() -> void:
-	self.add_child(_named_of_boolean)
-	self.add_child(_toggle_to_value_of_boolean)
 	_toggle_to_value_of_boolean.toggled.connect(_on_toggled)
 	
 func _on_toggled(pressed: bool) -> void:
